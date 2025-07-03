@@ -5,7 +5,6 @@ services:
     plan: free
     buildCommand: ./mvnw package
     startCommand: java -jar target/*.jar
-    rootDir: .
     envVars:
       - key: JAVA_VERSION
         value: 17
